@@ -1,0 +1,26 @@
+.axis path,
+.axis line {
+    stroke: #E0E0E0;
+}
+
+.axis text {
+    font-size: 11px;
+    fill: black;
+}
+
+.axis_bottom text {
+    /* transform: rotate(-45deg); */
+    text-anchor: end;
+}
+.axis_bottom .tick text{
+    display:none
+}
+.axis_bottom .tick line{
+    display:none
+}
+.axis_left path.domain{
+    display:none
+}
+.axis_bottom path.domain{
+    display:none
+}
